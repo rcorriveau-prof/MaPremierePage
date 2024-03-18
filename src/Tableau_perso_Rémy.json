@@ -1,0 +1,154 @@
+{
+  "properties": {
+    "lenses": {
+      "0": {
+        "order": 0,
+        "parts": {
+          "0": {
+            "position": {
+              "x": 0,
+              "y": 0,
+              "colSpan": 6,
+              "rowSpan": 4
+            },
+            "metadata": {
+              "inputs": [],
+              "type": "Extension/HubsExtension/PartType/MarkdownPart",
+              "settings": {
+                "content": {
+                  "content": "# Jour 1\r\n- Apprendre la syntaxe **Markdown**\r\n\r\n# Jour 2\r\n- Créer un beau Tableau de bord\r\n\r\n# Jour 3\r\n- Me *reposer*",
+                  "title": "TODOs",
+                  "subtitle": "Liste d'urgences",
+                  "markdownSource": 1,
+                  "markdownUri": ""
+                }
+              }
+            }
+          },
+          "1": {
+            "position": {
+              "x": 7,
+              "y": 0,
+              "colSpan": 2,
+              "rowSpan": 2
+            },
+            "metadata": {
+              "inputs": [],
+              "type": "Extension/HubsExtension/PartType/ClockPart",
+              "settings": {
+                "content": {
+                  "timezoneId": "Eastern Standard Time",
+                  "timeFormat": "HH:mm",
+                  "version": 1
+                }
+              }
+            }
+          },
+          "2": {
+            "position": {
+              "x": 9,
+              "y": 0,
+              "colSpan": 2,
+              "rowSpan": 2
+            },
+            "metadata": {
+              "inputs": [],
+              "type": "Extension/Microsoft_AAD_IAM/PartType/ActiveDirectoryQuickTasksPart"
+            }
+          },
+          "3": {
+            "position": {
+              "x": 7,
+              "y": 2,
+              "colSpan": 4,
+              "rowSpan": 2
+            },
+            "metadata": {
+              "inputs": [
+                {
+                  "name": "userObjectId",
+                  "isOptional": true
+                },
+                {
+                  "name": "startDate",
+                  "isOptional": true
+                },
+                {
+                  "name": "endDate",
+                  "isOptional": true
+                },
+                {
+                  "name": "fromAppsTile",
+                  "isOptional": true
+                }
+              ],
+              "type": "Extension/Microsoft_AAD_IAM/PartType/UsersActivitySummaryReportPart"
+            }
+          },
+          "4": {
+            "position": {
+              "x": 0,
+              "y": 4,
+              "colSpan": 9,
+              "rowSpan": 5
+            },
+            "metadata": {
+              "inputs": [
+                {
+                  "name": "resourceType",
+                  "value": "Microsoft.Resources/subscriptions/resourcegroups",
+                  "isOptional": true
+                },
+                {
+                  "name": "filter",
+                  "isOptional": true
+                },
+                {
+                  "name": "scope",
+                  "isOptional": true
+                },
+                {
+                  "name": "kind",
+                  "isOptional": true
+                }
+              ],
+              "type": "Extension/HubsExtension/PartType/BrowseResourceGroupPinnedPart"
+            }
+          },
+          "5": {
+            "position": {
+              "x": 9,
+              "y": 4,
+              "colSpan": 2,
+              "rowSpan": 2
+            },
+            "metadata": {
+              "inputs": [],
+              "type": "Extension/Microsoft_AAD_IAM/PartType/UserManagementSummaryPart"
+            }
+          }
+        }
+      }
+    },
+    "metadata": {
+      "model": {
+        "timeRange": {
+          "value": {
+            "relative": {
+              "duration": 24,
+              "timeUnit": 1
+            }
+          },
+          "type": "MsPortalFx.Composition.Configuration.ValueTypes.TimeRange"
+        }
+      }
+    }
+  },
+  "name": "Tableau_perso_Rémy",
+  "type": "Microsoft.Portal/dashboards",
+  "location": "INSERT LOCATION",
+  "tags": {
+    "hidden-title": "Tableau_perso_Rémy"
+  },
+  "apiVersion": "2015-08-01-preview"
+}
